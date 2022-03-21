@@ -1,0 +1,12 @@
+name: testActions
+on: [push]
+jobs: 
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: showNode
+          run: node -v
+        - name: nodeFile
+          run : node abc.js
+ 
+  
