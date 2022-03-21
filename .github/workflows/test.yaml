@@ -6,6 +6,8 @@ jobs:
       steps:
         - name: showNode
           run: node -v
-
+        - name: nodeFile
+          run : node abc.js
+          shell: node
  
   
