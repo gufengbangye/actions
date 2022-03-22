@@ -21,12 +21,12 @@ jobs:
       run: node abc.js
     - name: Create local changes
       run: |
-             echo >> abc.js 'console.log(12)'
+             echo >> abc.js 'console.log(444)'
              node abc.js
     - name: Commit files
       run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "1135523598@qq.com"
+        git config --local user.name "gufengbangye"
         git commit -m "Add changes" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
