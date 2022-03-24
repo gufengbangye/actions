@@ -12,7 +12,6 @@ jobs:
             is_ubuntu_8: true
         exclude: 
           - os: macos-latest
-            node_version: 6
           - os: ubuntu-latest
             node_version: 8
       fail-fast: false 
