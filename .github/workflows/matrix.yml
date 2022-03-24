@@ -6,11 +6,11 @@ jobs:
       matrix:
        os: [macos-latest,ubuntu-latest,windows-latest]
        node_version: [6,8,10]
-       inculde:
+       include:
         - os: macos-latest
           node_version: 8
           is_ubuntu_8: true
-       exculde: 
+       exclude: 
         - os: macos-latest
           node_version: 6
         - os: ubuntu-latest
